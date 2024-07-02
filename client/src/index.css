@@ -1,0 +1,63 @@
+/* Set a vibrant and inviting background gradient */
+body {
+    background-image: url('/Users/akshitanand/Deal_Dazzle_/client/src/images/back2.png');
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh; /* Full view height to make sure background covers full screen */
+    overflow-x: hidden; /* Prevents horizontal scroll */
+}
+
+
+/* General text and link styling for better readability and interaction */
+a {
+    color: #075985;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #06b6d4; /* Brighter blue on hover for links */
+}
+
+/* Enhance the visual hierarchy and readability */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.5em 0;
+    color: #083b66; /* Dark blue shade for headers */
+    font-weight: 600; /* Bold but not too heavy */
+}
+
+/* Style adjustments for material UI components to match the theme */
+.MuiPaper-root {
+    background-color: #ffffff; /* Maintains light background for contrast */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); /* Deeper shadow for a floating effect */
+}
+
+.MuiButton-containedPrimary {
+    background-color: #34d399; /* Teal for primary buttons */
+    color: white;
+}
+
+.MuiButton-containedPrimary:hover {
+    background-color: #059669; /* Darker teal on hover for depth */
+}
+
+/* Custom styles for different components if needed */
+.custom-class {
+    background-color: #f0fdfa; /* Very light green for a fresh look */
+    border-radius: 8px; /* Rounded corners for a soft, modern feel */
+}
+
+/* Improving form inputs for a more engaging user experience */
+input, textarea {
+    border: 2px solid #ddd; /* Subtle borders for inputs */
+    padding: 8px;
+    border-radius: 4px; /* Consistent rounded corners */
+    outline: none; /* Removes default focus outline */
+}
+
+input:focus, textarea:focus {
+    border-color: #34d399; /* Teal border on focus */
+}
