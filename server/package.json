@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+
   "scripts": {
-  "start": "nodemon ./index.js",
-  "build": "echo 'No build step required for index'",
-  "test": "echo 'No tests specified'",
-  "eject": "echo 'No eject step required'",
-  "dev": "nodemon ./index.js"
+    "start": "nodemon ./index.js",
+    "build": "echo 'No build step required for index'",
+    "test": "echo 'No tests specified'",
+    "eject": "echo 'No eject step required'",
+    "dev": "nodemon ./index.js"
   },
   "author": "",
   "license": "ISC",
